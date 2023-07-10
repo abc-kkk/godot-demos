@@ -1,0 +1,10 @@
+res://场景/main.tscn
+res://场景/Player.tscn
+res://场景/Block.tscn
+res://场景/bullet.tscn
+res://场景/blood_splat.tscn
+res://场景/Enemy.tscn
+res://场景/homing_missle.tscn
+res://场景/homing_missle.gd
+res://场景/Player.gd
+res://场景/main.gd

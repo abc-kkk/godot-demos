@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://blxkd32vy8nqx"]
+
+[ext_resource type="Texture2D" uid="uid://baa31wmtma657" path="res://资源/muzzle_02.png" id="1_35x2p"]
+[ext_resource type="Script" path="res://场景/muzzle_flash.gd" id="2_0pjso"]
+
+[sub_resource type="Curve" id="Curve_fnte4"]
+_data = [Vector2(0, 0), 0.0, 4.80543, 0, 1, Vector2(0.208098, 1), 0.0, 0.0, 0, 0, Vector2(0.8247, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="Gradient" id="Gradient_sjevu"]
+offsets = PackedFloat32Array(0, 0.238, 0.817, 1)
+colors = PackedColorArray(0.991214, 0, 0.249966, 1, 0.996602, 0.613208, 0.709892, 1, 0.949465, 0.899239, 0.903723, 1, 1, 1, 1, 0)
+
+[node name="MuzzleFlash" type="CPUParticles2D"]
+position = Vector2(35, 0)
+rotation = 1.5708
+scale = Vector2(0.1, 0.1)
+emitting = false
+lifetime = 0.2
+one_shot = true
+fixed_fps = 30
+local_coords = true
+draw_order = 1
+texture = ExtResource("1_35x2p")
+gravity = Vector2(0, 0)
+scale_amount_curve = SubResource("Curve_fnte4")
+color_ramp = SubResource("Gradient_sjevu")
+script = ExtResource("2_0pjso")
+
+[node name="Timer" type="Timer" parent="."]
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

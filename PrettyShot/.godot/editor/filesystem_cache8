@@ -1,0 +1,35 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1688916699
+icon.svg::CompressedTexture2D::7866249122017271599::1688866767::1688866774::1::::<><>::
+::res://场景/::1688917319
+Block.tscn::PackedScene::8393478411469603420::1688917319::0::1::::<><>::uid://bccq2fcwekb4k::::res://资源/block.png
+blood_splat.gd::GDScript::-1::1688907380::0::1::::<>CPUParticles2D<>::
+blood_splat.tscn::PackedScene::8638239542232146385::1688917319::0::1::::<><>::res://场景/blood_splat.gd
+bullet.gd::GDScript::-1::1688907160::0::1::::<>Area2D<>::
+bullet.tscn::PackedScene::672345154869210812::1688917319::0::1::::<><>::res://场景/bullet.gd<>uid://buqw0ke2vjwcs::::res://资源/bullet.png<>uid://brxxra3gfos41::::res://资源/9mm Single Isolated.mp3
+camera.gd::GDScript::-1::1688901176::0::1::::<>Camera2D<>::
+Enemy.gd::GDScript::-1::1688907134::0::1::::<>CharacterBody2D<>::
+Enemy.tscn::PackedScene::3307056046640798341::1688917319::0::1::::<><>::res://场景/Enemy.gd<>uid://2pb3s4lsubi6::::res://资源/e1.png
+homing_missle.tscn::PackedScene::5371927881093169029::1688917319::0::1::::<><>::res://场景/homing_missle.gd<>uid://baa31wmtma657::::res://资源/muzzle_02.png<>uid://dpfgiqdvitfbf::::res://资源/icon.png
+main.gd::GDScript::-1::1688916415::0::1::::<>Node2D<>::
+main.tscn::PackedScene::3857519464457045944::1688917319::0::1::::<><>::uid://bljg811xjkwpx::::res://场景/Player.tscn<>res://场景/main.gd<>uid://ctmfjfxg8dpkf::::res://资源/tileset1.png<>uid://cxwdtt3b2m7l8::::res://资源/bg_music.ogg<>uid://colb5xqc5tnvq::::res://资源/light_mask.png
+muzzle_flash.gd::GDScript::-1::1688905366::0::1::::<>CPUParticles2D<>::
+muzzle_flash.tscn::PackedScene::3206592692715263315::1688907219::0::1::::<><>::uid://baa31wmtma657::::res://资源/muzzle_02.png<>res://场景/muzzle_flash.gd
+Player.gd::GDScript::-1::1688917289::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::3177502003482934957::1688917319::0::1::::<><>::res://场景/Player.gd<>res://场景/camera.gd
+homing_missle.gd::GDScript::-1::1688917316::0::1::::<>Area2D<>::
+::res://资源/::1688917431
+9mm Single Isolated.mp3::AudioStreamMP3::3628538606747428284::1659459074::1688901498::1::::<><>::
+bg_2.ogg::AudioStreamOggVorbis::6166632485529019961::1687581620::1688901689::1::::<><>::
+bg_3.ogg::AudioStreamOggVorbis::6926146993260514241::1687581619::1688901689::1::::<><>::
+bg_music.ogg::AudioStreamOggVorbis::6432818203992956359::1687581620::1688901689::1::::<><>::
+block.png::CompressedTexture2D::2531947081508660408::1688871174::1688871212::1::::<><>::
+bullet.png::CompressedTexture2D::3824608551875107622::1688893534::1688893597::1::::<><>::
+crosshair158.png::CompressedTexture2D::7016437986405412428::1674675975::1688912501::1::::<><>::
+e1.png::CompressedTexture2D::1926176154504136467::1688893563::1688893597::1::::<><>::
+icon.png::CompressedTexture2D::8222796028701528499::1674675975::1688914845::1::::<><>::
+launcher1.mp3::AudioStreamMP3::6360083112460744761::1688917420::1688917432::1::::<><>::
+light_mask.png::CompressedTexture2D::5778308857308873798::1674675975::1688912501::1::::<><>::
+muzzle_02.png::CompressedTexture2D::2388168365062791480::1674675975::1688903077::1::::<><>::
+rolling_rocket.mp3::AudioStreamMP3::2895487552516451810::1688917400::1688917432::1::::<><>::
+tileset1.png::CompressedTexture2D::6131521885130610621::1688893551::1688893597::1::::<><>::
